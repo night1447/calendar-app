@@ -1,0 +1,35 @@
+@import "../../../settings";
+
+.item {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--accent-black);
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+  &_mb {
+    margin-bottom: 0;
+  }
+  @include adpt($bmob-r){
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+}
+
+.time {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.reset {
+  background-color: var(--red);
+
+  &:hover {
+    background-color: var(--dark-red);
+  }
+}

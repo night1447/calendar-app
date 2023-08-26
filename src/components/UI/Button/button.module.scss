@@ -1,0 +1,45 @@
+@import "../../../settings";
+
+.btn {
+  color: var(--white);
+  padding: 12px 20px;
+  font-family: Lato, sans-serif;
+  border-radius: 4px;
+  transition: box-shadow 0.5s, background-color 0.5s, color 0.5s, border-color 0.5s;
+  outline: none;
+
+  &:focus, &:active {
+    box-shadow: 2px 2px 2px #3333;
+  }
+
+  @include adpt($bmob-r) {
+    width: 100%;
+  }
+}
+
+.fill {
+  background-color: var(--accent);
+
+  &:hover {
+    background-color: var(--accent-black);
+  }
+
+  &:focus, &:active {
+    background-color: var(--accent-black);
+  }
+}
+
+.outline {
+  outline: 1px solid var(--accent);
+  color: var(--accent);
+
+  &:hover {
+    background-color: var(--hover);
+  }
+
+  &:focus, &:active {
+    background-color: var(--accent);
+    color: var(--white);
+  }
+}
+

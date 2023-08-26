@@ -1,0 +1,17 @@
+@import "../../../settings";
+
+.cell {
+  display: flex;
+  justify-content: center;
+  padding: 12px 20px;
+  text-transform: uppercase;
+  @include adpt($bmob-r) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.dayOff {
+  font-weight: 600;
+  color: var(--red);
+}

@@ -1,0 +1,11 @@
+@import "../../settings";
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @include adpt($stab-r) {
+    height: 100vw;
+    width: 100vw;
+  }
+}

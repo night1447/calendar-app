@@ -1,0 +1,8 @@
+@import "../../../settings";
+
+.section {
+  padding: 90px 0;
+  @include adpt($bmob-r) {
+    padding: 60px 0;
+  }
+}

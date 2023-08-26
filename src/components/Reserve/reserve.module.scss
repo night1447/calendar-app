@@ -1,0 +1,32 @@
+@import "../../settings";
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  min-width: 576px;
+  padding: 20px;
+  background-color: var(--white);
+  @include adpt($bmob-r) {
+    min-width: 100%;
+  }
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.error {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s, visibility 0.5s;
+  font-weight: 600;
+
+  &_active {
+    position: relative;
+    opacity: 1;
+    visibility: visible;
+  }
+}

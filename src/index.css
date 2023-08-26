@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+:root {
+    --accent: #1294F2;
+    --accent-black: #0f7dcc;
+    --hover: #ECF2FF;
+    --black: #282D35;
+    --white: #FFFFFF;
+    --disable: #BDBDBD;
+    --red: #DE1A1A;
+    --dark-red: #c51717;
+    --yellow: #F7CB15;
+}
+
+body {
+    font-family: Lato, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", serif;
+}
