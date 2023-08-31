@@ -1,7 +1,7 @@
 {
   "name": "calendar-app",
-  "private": true,
-  "homepage": "https://calendar-app-five-ruddy.vercel.app/calendar",
+  "private": false,
+  "homepage": "https://calendar-app-five-ruddy.vercel.app",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
